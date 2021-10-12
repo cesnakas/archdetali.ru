@@ -1,0 +1,179 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Дизайн проект", 
+		"/services/dizayn-proekt/", 
+		Array("https://luks-dizain.ru/dizayn-kvartiry.htm"), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Дизайн квартиры", 
+		"/services/dizayn-kvartiry/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Кухни", 
+		"/services/stili-dizajna-kuxni-i-interer/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Ванной комнаты", 
+		"/services/dizajn-vannoj-komnatyi-i-interer/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Детской комнаты", 
+		"/services/dizajn-detskoj-komnatyi-i-interer/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Гостиной", 
+		"/services/dizajn-gostinoj-i-interer/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Спальни", 
+		"/services/dizajn-spalni/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Прихожей", 
+		"/services/dizajn-prihozhej/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Коттеджа", 
+		"/services/dizayn-kottedzha/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Кафе", 
+		"/services/dizayn-kafe-restorana/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Ресторана", 
+		"/services/dizayn-restorana/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Магазина", 
+		"/services/dizayn-magazina/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Офиса", 
+		"/services/dizayn-ofisa/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Таунхаусов", 
+		"/services/dizayn-taunkhausov/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Авторский надзор", 
+		"/services/avtorskiy-nadzor/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Проектирование жилых и нежилых коммерческих помещений", 
+		"/services/proektirovanie-zhilykh-i-nezhilykh-pomeshcheniy/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Подбор мебели, аксессуаров и осветительного оборудования", 
+		"/services/podbor-mebeli-aksessuarov-i-osvetitelnogo-oborudovaniya/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Подбор материалов", 
+		"/services/podbor-mebeli-aksessuarov-i-osvetitelnogo-oborudovaniya/#1", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"3d-визуализация проекта", 
+		"/services/3d-vizualizatsiya-proekta/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Разработка чертежей", 
+		"/services/razrabotka-chertezhey/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Услуги декоратора интерьера", 
+		"/services/dekorator-interera/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Дизайн проект дома", 
+		"/services/dizayn-proekt-doma/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Дизайн проект под ключ", 
+		"/services/dizayn-proekt-pod-klyuch/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Ремонт офиса", 
+		"/services/remont-ofisa/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Ремонт квартир", 
+		"/services/remont-kvartir/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

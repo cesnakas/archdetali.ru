@@ -1,0 +1,53 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Компания",
+		"/company/",
+		Array(),
+		Array(),
+		""
+	),
+	Array(
+		"Портфолио",
+		"/catalog/dizayn-proekty-kvartir/",
+		Array(),
+		Array(),
+		""
+	),
+	Array(
+		"Услуги",
+		"/services/",
+		Array(),
+		Array(),
+		""
+	),
+	Array(
+		"Стили интерьера",
+		"/dizayn/",
+		Array(),
+		Array(),
+		""
+	),
+	Array(
+		"Цены",
+		"/price-dizayn-interera/",
+		Array(),
+		Array(),
+		""
+	),
+	Array(
+		"Акции",
+		"/info/stock/",
+		Array(),
+		Array(),
+		""
+	),
+	Array(
+		"Контакты",
+		"/contacts/",
+		Array(),
+		Array(),
+		""
+	)
+);
+?>
