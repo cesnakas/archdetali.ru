@@ -1,0 +1,151 @@
+#spy {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  overflow: auto;
+  background: rgba(0, 0, 0, 0.85);
+  color: #fff;
+}
+
+#spy .spy-container {
+  width: 80%;
+  margin: 100px auto;
+  text-align: center;
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+#spy .spy-title {
+  font-size: 46px;
+  font-weight: bold;
+  line-height: 40px;
+}
+
+.spy-desc1 {
+  font-size: 22px;
+  padding-top: 40px;
+  line-height: 30px;
+}
+
+#spy .spy-close {
+  position: absolute;
+  top: 70px;
+  right: 150px;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+#spy form {
+   margin-top: 120px;
+}
+
+#spy input {
+  font-size: 40px;
+  border: none;
+  color: #fff;
+  outline: none;
+  background: transparent;
+  border-bottom: 5px solid #fff;
+  padding: 10px;
+  /*width: 250px;*/
+}
+
+#spy button {
+  background: none;
+  font-size: 30px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#spy input::-webkit-input-placeholder {
+  color: #fff;
+}
+
+#spy input::-moz-placeholder {
+  color: #fff;
+}
+
+#spy input:-ms-input-placeholder {
+  color: #fff;
+}
+
+#spy input::placeholder {
+  color: #fff;
+}
+
+@-webkit-keyframes animatetop {
+    from {
+      top: -300px;
+      opacity: 0
+    }
+    to {
+      top: 0;
+      opacity: 1
+    }
+}
+
+@keyframes animatetop {
+    from {
+      top: -300px;
+      opacity: 0
+    }
+    to {
+      top: 0;
+      opacity: 1
+    }
+}
+
+.spy-submit {
+  border: none !important;
+}
+
+.pop-ap-agreement a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.message-form {
+  font-size: 16px;
+  padding-top: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  #spy .spy-title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px !important;
+    line-height: 22px;
+  }
+  .spy-close {
+    padding-bottom: 20px;
+    position: static !important;
+    padding-top: 70px;
+    text-align: center;
+  }
+  .spy-container {
+    margin-top: 0px !important;
+  }
+  .spy-title {
+    margin-top: 0px !important;
+  }
+  #spy form {
+    margin-top: 10px;
+  }
+  #spy input{
+    font-size: 20px;
+  }
+  .pop-ap-agreement {
+    font-size: 12px;
+    padding-top: 15px;
+  }
+  .spy-desc1 {
+    display: none !important;
+  }
+}
