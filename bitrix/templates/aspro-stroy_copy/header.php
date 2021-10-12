@@ -262,7 +262,7 @@ if($is_mobile_device){
                         </div>
                         <div data-event="jqm" data-param-id="67" data-name="callback" class="main-callback-btn">Обратный звонок</div>
                     </div>
-                    <a href="#" class="toggle-nav"><span></span></a>
+                    <a href="javascript:void(0);" class="toggle-nav"><span></span></a>
                 </div>
             </div>
         </div>

@@ -63,29 +63,33 @@ $("textarea[name=MESSAGE]").val("Калькулятор\n" +
 };
 
 $('.mnu-mob-item-drop-link').click(function () {
-$(this).toggleClass('in').next().slideToggle();
-$('.mnu-mob-item-drop-link').not(this).removeClass('in').next().slideUp();
+    $(this).toggleClass('in').next().slideToggle();
+    $('.mnu-mob-item-drop-link').not(this).removeClass('in').next().slideUp();
 });
 
-$('.toggle-nav').on('click', function() {
-$(this).toggleClass('on');
+$('.toggle-nav').on('click', function () {
+    $(this).toggleClass('on');
 
-var $this = $(this);
-if($this.hasClass('on')){
-$('.mnu-mob-wrapper').animate({
-right: '0'
-}, 400);
-$('body').animate({
-right: '250px'
-}, 400);
-} else {
-$('.mnu-mob-wrapper').animate({
-right: '-250px'
-}, 400);
-$('body').animate({
-right: '0'
-}, 400);
-}
+    var $this = $(this);
+    if ($this.hasClass('on')) {
+        $('.mnu-mob-wrapper').animate({
+            right: '0'
+        }, 400);
+        $('body').css({
+            overflow: 'hidden'
+        }).animate({
+            right: '250px'
+        }, 400);
+    } else {
+        $('.mnu-mob-wrapper').animate({
+            right: '-250px'
+        }, 400);
+        $('body').css({
+            overflow: 'inherit'
+        }).animate({
+            right: '0'
+        }, 400);
+    }
 });
 
 $('.phone-input').mask('+7 999 - 999 - 99 - 99');

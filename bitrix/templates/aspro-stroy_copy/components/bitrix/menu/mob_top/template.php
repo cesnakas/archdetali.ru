@@ -1,5 +1,9 @@
 <?if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true) die();?>
 
+<!--<a href="#" class="toggle-nav on" style="position: absolute;">
+    <span></span>
+</a>-->
+
 <?if($arResult):?>
 	<ul class="mnu-mob">
         <?foreach($arResult as $arItem):?>
